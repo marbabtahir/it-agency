@@ -21,15 +21,6 @@
                     </div>
                     <!-- #logo end -->
 
-                    <!-- <div class="header-misc">
-                        <NuxtLink class="top-phone" to="/forms/membership"
-                            ><i class="fa-solid fa-user-plus"></i>
-                            <span class="d-none d-md-inline-block">
-                                Membership
-                            </span></NuxtLink
-                        >
-                    </div> -->
-
                     <div class="primary-menu-trigger">
                         <button
                             class="cnvs-hamburger"
@@ -116,43 +107,6 @@
                             </a>
                         </div>
                             </li>
-
-                            <!-- <li
-                                class="menu-item"
-                                :class="{
-                                    current: activeRoute === '/amenities',
-                                }"
-                            >
-                                <NuxtLink class="menu-link" to="/amenities"
-                                    ><div>Amenities</div></NuxtLink
-                                >
-                            </li>
-                            <li
-                                class="menu-item"
-                                :class="{ current: activeRoute === '/rates' }"
-                            >
-                                <NuxtLink class="menu-link" to="/rates"
-                                    ><div>Rates</div></NuxtLink
-                                >
-                            </li>
-                            <li
-                                class="menu-item"
-                                :class="{
-                                    current: activeRoute === '/location',
-                                }"
-                            >
-                                <NuxtLink class="menu-link" to="/location"
-                                    ><div>Location</div></NuxtLink
-                                >
-                            </li>
-                            <li
-                                class="menu-item"
-                                :class="{ current: activeRoute === '/contact' }"
-                            >
-                                <NuxtLink class="menu-link" to="/contact"
-                                    ><div>Contact</div></NuxtLink
-                                >
-                            </li> -->
                         </ul>
                     </nav>
                     <!-- #primary-menu end -->

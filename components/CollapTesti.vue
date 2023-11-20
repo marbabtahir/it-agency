@@ -143,20 +143,20 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.animated-content {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 3s, transform 2s;
-    animation-name: bounce;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-  }
+// .animated-content {
+//     opacity: 0;
+//     transform: translateY(50px);
+//     transition: opacity 3s, transform 2s;
+//     animation-name: bounce;
+//     animation-duration: 1s;
+//     animation-iteration-count: infinite;
+//   }
 
-  @keyframes bounce {
-      0% {transform: translateY(0);}
-      50% {transform: translateY(-10px);}
-      100% {transform: translateY(0);}
-  }
+//   @keyframes bounce {
+//       0% {transform: translateY(0);}
+//       50% {transform: translateY(-10px);}
+//       100% {transform: translateY(0);}
+//   }
   .fade-in {
     opacity: 1;
     transform: translateY( 0);
