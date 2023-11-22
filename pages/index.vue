@@ -215,7 +215,7 @@ export default {
     position: relative;
     background: linear-gradient(#a2e5ff,#1899d1);
     opacity: 0;
-  animation: fadeIn 1.5s ease forwards;
+    animation: fadeIn 1.5s ease forwards;
 
   @keyframes fadeIn {
     0% {
