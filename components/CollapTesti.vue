@@ -1,7 +1,7 @@
 <template>
-    <div class="section">
-        <div class="container" ref="animatedElement">
-            <div class="row justify-content-between align-items-center animated-content" :class="{ 'fade-in': animated }">
+    <div class="section" ref="animatedElement">
+        <div class="container animated-content" :class="{ 'fade-in': animated }">
+            <div class="row justify-content-between align-items-center">
                 <div class="col-lg-5 col-md-6 mt-5 mt-md-0">
 
                     <div class="accordion bg-transparent" id="accordionE">
@@ -143,20 +143,17 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-// .animated-content {
-//     opacity: 0;
-//     transform: translateY(50px);
-//     transition: opacity 3s, transform 2s;
-//     animation-name: bounce;
-//     animation-duration: 1s;
-//     animation-iteration-count: infinite;
-//   }
-
 //   @keyframes bounce {
 //       0% {transform: translateY(0);}
 //       50% {transform: translateY(-10px);}
 //       100% {transform: translateY(0);}
 //   }
+
+.animated-content {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s, transform 1s;
+  }
   .fade-in {
     opacity: 1;
     transform: translateY( 0);

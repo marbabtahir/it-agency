@@ -108,7 +108,7 @@ button:active {
 .animated-content {
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 3s, transform 2s;
+    transition: opacity 1s, transform 1s;
   }
 
   .fade-in {
@@ -127,29 +127,29 @@ button:active {
     box-shadow: none;
     background: transparent;
     border-bottom: 1px solid #28ACE2;
-    animation:vibrate 1.5s linear both infinite;
+    // animation:vibrate 1.5s linear both infinite;
 }
 
-@keyframes vibrate {
-    0% {
-        transform:translate(0)
-    }
-    20% {
-        transform:translate(-2px,2px)
-    }
-    40% {
-        transform:translate(-2px,-2px)
-    }
-    60% {
-        transform:translate(2px,2px)
-    }
-    80% {
-        transform:translate(2px,-2px)
-    }
-    100% {
-        transform:translate(0)
-    }
-}
+// @keyframes vibrate {
+//     0% {
+//         transform:translate(0)
+//     }
+//     20% {
+//         transform:translate(-2px,2px)
+//     }
+//     40% {
+//         transform:translate(-2px,-2px)
+//     }
+//     60% {
+//         transform:translate(2px,2px)
+//     }
+//     80% {
+//         transform:translate(2px,-2px)
+//     }
+//     100% {
+//         transform:translate(0)
+//     }
+// }
 .custom-underline {
     text-decoration-color: #28ACE2;
 }

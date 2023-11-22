@@ -93,9 +93,9 @@ export default {
 
 <style lang="scss" scoped>
 .blog-post{
-    transition: .5s, color .10s;
-    -webkit-transition: .5s, color .10s;
-    -moz-transition: .5s, color .10s;
+    transition: .5s, color .5s;
+    -webkit-transition: .5s, color .5;
+    -moz-transition: .5s, color .5s;
 }
 .blog-post:hover{
     box-shadow: transparent;
@@ -109,7 +109,7 @@ button:active {
 .animated-content {
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 3s, transform 2s;
+    transition: opacity 1s, transform 1s;
   }
 
   .fade-in {

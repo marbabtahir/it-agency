@@ -116,9 +116,9 @@ export default {
 
 <style lang="scss" scoped>
 .services{
-    transition: .5s, color .10s;
-    -webkit-transition: .5s, color .10s;
-    -moz-transition: .5s, color .10s;
+    transition: .5s, color .5s;
+    -webkit-transition: .5s, color .5s;
+    -moz-transition: .5s, color .5;
 }
 .services:hover{
     box-shadow: transparent;
@@ -130,7 +130,7 @@ export default {
 .animated-content {
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 3s, transform 2s;
+    transition: opacity 1s, transform 1s;
   }
 
   .fade-in {
