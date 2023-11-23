@@ -152,7 +152,7 @@ export default {
 .animated-content {
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 1s, transform 1s;
+    transition: opacity .3s, transform .3s;
   }
   .fade-in {
     opacity: 1;

@@ -164,28 +164,6 @@ button:active {
     box-shadow: none;
     background: transparent;
     border-bottom: 1px solid #28ACE2;
-    animation:vibrate 1.5s linear both infinite;
-}
-
-@keyframes vibrate {
-    0% {
-        transform:translate(0)
-    }
-    20% {
-        transform:translate(-2px,2px)
-    }
-    40% {
-        transform:translate(-2px,-2px)
-    }
-    60% {
-        transform:translate(2px,2px)
-    }
-    80% {
-        transform:translate(2px,-2px)
-    }
-    100% {
-        transform:translate(0)
-    }
 }
 
 </style>
