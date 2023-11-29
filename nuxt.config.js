@@ -71,7 +71,7 @@ export default {
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {},
 
-    // sitemap: {
-    //     hostname: "https://noblecospace.com",
-    // },
+    sitemap: {
+        hostname: "https://noblecospace.com",
+    },
 };
