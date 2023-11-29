@@ -1,7 +1,7 @@
 <template>
     <!-- Footer
 		============================================= -->
-    <footer id="footer" class="border-0 dark">
+    <footer id="footer" class="border-0" style="background: linear-gradient(#ffffff,#DA382F);">
         <div class="container">
             <!-- Footer Widgets
     ============================================= -->
@@ -12,14 +12,11 @@
 
                             <NuxtLink to="/"
                                 ><img
-                                    src="@/assets/images/logo-text-dark.png"
+                                    src="@/assets/images/logo-hsn-footer.png"
                                     alt="Logo Footer"
                                     class="mb-2"
-                                    height="40"
+                                    height="55"
                             /></NuxtLink>
-                            <p class="text-white-50 pb-0 mb-1">
-                                affordable luxury coworking space
-                            </p>
 
                         </div>
                     </div>
@@ -28,7 +25,7 @@
                         <div class="pt-4 f-icons">
                             <a
                                 target="_blank"
-                                href="//facebook.com/noblecospace"
+                                href="//facebook.com/hassan.ejazch"
                                 class="social-icon h-bg-facebook"
                             >
                                 <i class="fa-brands fa-facebook-f"></i>
@@ -36,19 +33,11 @@
                             </a>
                             <a
                                 target="_blank"
-                                href="//twitter.com/noblecospace"
+                                href="//linkedin.com/in/hassan-ejaz-chaudhary-334195258"
                                 class="social-icon h-bg-twitter"
                             >
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>
-                            <a
-                                target="_blank"
-                                href="//instagram.com/noblecospace"
-                                class="social-icon h-bg-instagram"
-                            >
-                                <i class="fa-brands fa-instagram"></i>
-                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                                <i class="fa-brands fa-linkedin"></i>
                             </a>
                         </div>
 

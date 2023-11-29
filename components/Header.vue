@@ -7,12 +7,12 @@
                         <NuxtLink to="/">
                             <img
                                 class="logo-default"
-                                src="@/assets/images/logo-dark.png"
+                                src="@/assets/images/logo-hsn.png"
                                 alt="Noble CoSpace logo"
                             />
                             <img
                                 class="logo-sticky"
-                                src="@/assets/images/logo-dark.png"
+                                src="@/assets/images/logo-hsn.png"
                                 alt="Noble CoSpace logo"
                             />
                         </NuxtLink>
@@ -36,8 +36,8 @@
                                 class="nav-item"
                             >
                                 <NuxtLink
-                                class="nav-link" to="/services"
-                                :class="{ active: activeRoute === '/services' }"
+                                class="nav-link" to="#services"
+                                :class="{ active: activeRoute === '#services' }"
                                 >
                                     <div @click="closeNavbar">Services</div>
                                     </NuxtLink>
@@ -45,17 +45,17 @@
                             <li
                                 class="nav-item">
                                 <NuxtLink
-                                class="nav-link" to="/company"
-                                :class="{ active: activeRoute === '/company' }"
+                                class="nav-link" to="#about"
+                                :class="{ active: activeRoute === '#about' }"
                                 >
-                                <div @click="closeNavbar">Company</div>
+                                <div @click="closeNavbar">About Us</div>
                                 </NuxtLink>
                             </li>
                             <li
                                 class="nav-item">
                                 <NuxtLink
-                                class="nav-link" to="/work"
-                                :class="{ active: activeRoute === '/work' }"
+                                class="nav-link" to="#work"
+                                :class="{ active: activeRoute === '#work' }"
                                 >
                                 <div @click="closeNavbar">Our Work</div>
                                 </NuxtLink>
@@ -63,18 +63,18 @@
                             <li
                                 class="nav-item">
                                 <NuxtLink
-                                class="nav-link" to="/contact"
-                                :class="{ active: activeRoute === '/contact' }"
+                                class="nav-link" to="#contact"
+                                :class="{ active: activeRoute === '#contact' }"
                                 >
                                 <div @click="closeNavbar">Contact</div>
                                 </NuxtLink>
                             </li>
-                            <div class="s-icon d-flex">
+                            <div class="s-icon">
                                 <li>
                           <div>
                             <a
                                 target="_blank"
-                                href="//facebook.com/noblecospace"
+                                href="//facebook.com/hassan.ejazch"
                                 class="mt-2 social-icon h-bg-facebook"
                             >
                                 <i class="fa-brands fa-facebook-f"></i>
@@ -87,26 +87,16 @@
                           <div>
                             <a
                                 target="_blank"
-                                href="//twitter.com/noblecospace"
+                                href="//linkedin.com/in/hassan-ejaz-chaudhary-334195258"
                                 class="mt-2 social-icon h-bg-twitter"
                             >
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                                <i class="fa-brands fa-linkedin"></i>
                             </a>
                         </div>
                             </li>
 
                             <li>
-                          <div>
-                            <a
-                                target="_blank"
-                                href="//instagram.com/noblecospace"
-                                class="mt-2 social-icon h-bg-instagram"
-                            >
-                                <i class="fa-brands fa-instagram"></i>
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                        </div>
                             </li>
                             </div>
 
@@ -152,12 +142,16 @@ export default {
   box-shadow: none !important;
 }
 
+.s-icon {
+    display: none;
+}
+
 @media (max-width: 768px){
     .s-icon {
   display: flex;
   margin-top: 2rem;
-  border-top: 1px solid #28ACE2;
-  border-bottom: 1px solid #28ACE2;
+  border-top: 1px solid #D83833;
+  border-bottom: 1px solid #D83833;
   justify-content: center;
 }
 }

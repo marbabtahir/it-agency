@@ -1,46 +1,36 @@
 <template>
     <div class="section" id="contact">
         <div class="container" ref="animatedElement">
-            <!-- <header class="section-header text-center animated-content" :class="{ 'fade-in': animated }">
-                <img width="70" height="70" src="https://i.imgur.com/as6pSVy.gif" alt="chat--v2"/>
-            </header> -->
+            <header class="section-header text-center animated-content" :class="{ 'fade-in': animated }">
+                <img width="70" height="70" src="https://img.icons8.com/fluency/96/topic.png" alt="chat--v2"/>
+            </header>
             <div class="row justify-content-between animated-content" :class="{ 'fade-in': animated }">
-                <div class="col-lg-5 col-md-6 mt-5 mt-md-0">
-                    <h1>Get in Touch.</h1>
-            <form @submit.prevent="submitForm">
-                <div class="mb-3">
-                    <div class="row">
-                        <div class="col"><input type="text" class="form-control form-input-outline" placeholder="Name" v-model="formData.name" id="name" required></div>
-                        <div class="col"><input type="email" class="form-control form-input-outline" placeholder="Email" v-model="formData.email" id="email" required></div>
-                    </div>
-
-                </div>
-                <div class="mb-4">
-                    <input type="text" class="form-control form-input-outline" placeholder="Subject" v-model="formData.subject" id="subject" required>
-                </div>
-                <div class="mb-3">
-                    <textarea class="form-control form-input-outline" placeholder="Your Message" v-model="formData.message" id="message" rows="4" required></textarea>
-                </div>
-                <button type="submit" class="btn bg-transparent border-primary border-2 rounded-0">Send</button>
-            </form>
-                </div>
 
                 <div class="col-lg-5 col-md-6 mt-5 mt-md-0 p-5 address">
-                    <h3><u class="custom-underline">Head Office</u>.</h3>
-                    <address>
-                            337 G, Rehman Pura<br />Lahore 54000,<br />Pakistan
-                    </address>
+                    <h1>Get in Touch.</h1>
+
                             <small class="text-black-50">Phone Number</small>
                             <br />
-                        <a href="tel:+923238878361">0323 8878361</a>
+                        <a href="tel:+923278896833">0327 8896833</a>
                         <br />
                         <small class="text-black-50">Email</small>
                         <br />
-                        <a href="mailto:info@noblecospace.com">
-                            info@noblecospace.com
+                        <a href="mailto:hassanejaz0378@gmail.com">
+                            hassanejaz0378@gmail.com
                         </a>
                 </div>
 
+                <div class="col-lg-6 min-vh-50 mt-5 mt-md-0 pt-5">
+                    <h2>Head Office.</h2>
+                    <div class="position-relative map-container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13604.137429122837!2d74.317006!3d31.5232163!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391905d79978b6fd%3A0x67ff390983c234db!2snoble%20cospace!5e0!3m2!1sen!2s!4v1687718596380!5m2!1sen!2s"
+                                allowfullscreen
+                                style="border: 0"
+                                class="w-100 h-100"
+                            ></iframe>
+                        </div>
+                </div>
             </div>
         </div>
      </div>
@@ -151,7 +141,7 @@ button:active {
 //     }
 // }
 .custom-underline {
-    text-decoration-color: #28ACE2;
+    text-decoration-color: #DA372F;
 }
 
 @media (max-width: 768px){

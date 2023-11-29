@@ -10,7 +10,7 @@
                 </div>
             </header>
             <div class="row">
-                <div class="col-12 col-md-4 mb-3" v-for="(benefit, index) in list" :key="index">
+                <div class="col-12 col-md-6 mb-3" v-for="(benefit, index) in list" :key="index">
                     <div class="m-0 p-0 services">
                         <div class="mb-2">
                             <img height="80" width="80" :src="benefit.src" />
@@ -29,59 +29,30 @@ export default {
         return {
             list: [
                 {
-                    src: "https://img.icons8.com/fluency/96/code.png",
-                    title: "Development",
+                    src: "https://img.icons8.com/fluency/96/laptop-coding.png",
+                    title: "Web Development",
                     description:
-                        "We develop customized and modern apps for specific business needs on any platform (web, mobile or desktop).",
+                        "Comprehensive web development expertise delivering innovative solutions. Expert in design, coding, and optimization.",
                 },
                 {
-                    src: "https://img.icons8.com/fluency/96/services.png",
-                    title: "Product Engineering",
+                    src: "https://img.icons8.com/fluency/96/developer-mode.png",
+                    title: "App Development",
                     description:
-                        "We help businesses innovating, designing, developing, testing and deploying their software products.",
+                        "Delivering end-to-end mobile and desktop app development expertise. From design to deployment, we craft innovative and seamless cross-platform solutions.",
                 },
                 {
-                    src: "https://img.icons8.com/fluency/96/guest-male--v2.png",
-                    title: "Consulting",
+                    src: "https://img.icons8.com/fluency/96/commercial--v1.png",
+                    title: "Digital Marketing",
                     description:
-                        "We help businesses in IT planning, infrastructure design, technologies, platforms and security.",
+                        "Complete digital marketing solutions: strategies, execution, and channel optimization. Customized services for enhanced brand visibility and targeted engagement.",
                 },
                 {
-                    src: "https://img.icons8.com/fluency/96/request-service.png",
-                    title: "Application Management",
+                    src: "https://img.icons8.com/fluency/96/windows10-personalization.png",
+                    title: "Graphic Designing",
                     description:
-                        "To keep your systems smooth and stable, we offer maintenance, migration, configuration and monitoring services that keep you up and running.",
+                        "Graphic design services encompass diverse visual needs. From branding to digital assets, crafting captivating designs tailored to engage and resonate.",
                 },
-                {
-                    src: "https://img.icons8.com/fluency/96/query-inner-join.png",
-                    title: "System Integration",
-                    description:
-                        "To make sure that all your systems work togethor efficiently, we can integrate different technologies and systems to work togethor according to your needs.",
-                },
-                {
-                    src: "https://img.icons8.com/fluency/96/cyber-security.png",
-                    title: "Information Security",
-                    description:
-                        "Security that helps you sleep at night. We offer quality security services for your IT systems and infrastructure so that you never feel insecure.",
-                },
-                {
-                    src: "https://img.icons8.com/fluency/96/share.png",
-                    title: "Social Media Management",
-                    description:
-                        "Making sure your social media is doing as good as it can - we don't add dead followers and just brag about it.",
-                },
-                {
-                    src: "https://img.icons8.com/fluency/96/positive-dynamic.png",
-                    title: "Search Engine Optimization",
-                    description:
-                        "We improve your seo and make sure your site is loved by google and other search engines.",
-                },
-                {
-                    src: "https://img.icons8.com/fluency/96/web-advertising.png",
-                    title: "Marketing & Advertising",
-                    description:
-                        "To help you grow your business and achieve the best ROI, we use the best tools and resources to advertise and market your business.",
-                },
+
             ],
             animated: false,
         };

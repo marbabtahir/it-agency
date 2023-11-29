@@ -12,16 +12,16 @@
                                 data-rotate="fadeIn"
                                 data-speed="2000"
                             >
-                                <span class="t-rotate text-white">Environment|Workspace|CoWorking|Community</span>
+                                <span class="t-rotate text-white">Quality|Services|Connection|Solution</span>
                             </span>
                             for you.
                         </h2>
                     </div>
                     <div class="col-md-5">
                         <p class="lead text-white hero-heading">
-                            Whether you are a freelancer, entrepreneur, or small
-                            business owner, we offer the perfect backdrop for
-                            creativity, innovation, and collaboration.
+                            Whether you are a company or small
+                            business owner, we offer the perfect services for
+                            creativity, innovation, and enhancing your business.
                         </p>
                     </div>
                 </div>
@@ -32,42 +32,36 @@
          <Services class="my-0 bg-white text-center border-0" />
 
 
-         <CollapTesti class="my-0 shadow border-top border-bottom border-primary" />
+         <CollapTesti class="my-0 shadow border-top border-bottom border-danger" />
 
-        <Blogs class="bg-white" />
+        <Work class="bg-white" />
 
-        <section class="section bg-transparent" id="portfolio" ref="animatedElement">
+        <section class="section bg-transparent" id="about" ref="animatedElement">
             <div class="container animated-content" :class="{ 'fade-in': animated }">
                 <div class="heading-block border-bottom-0 text-center">
-                    <div class="before-heading">Portfolio</div>
+                    <div class="before-heading">About</div>
                     <h2 class="text-transform-none fw-semibold mb-0">
-                        Portfolio.
+                        About Us.
                     </h2>
                 </div>
             </div>
-            <div class="container animated-content" :class="{ 'fade-in': animated }">
-                <div
-                    class="masonry-thumbs grid-container row row-cols-3"
-                    data-big="4"
-                    data-lightbox="gallery"
-                >
-                    <a
-                        :key="index"
-                        class="grid-item p-1 overflow-hidden"
-                        :href="image.src"
-                        data-lightbox="gallery-item"
-                        v-for="(image, index) in gallery"
-                        ><img
-                            class="zoom-img rounded-2"
-                            :src="image.src"
-                            :alt="'Noble CoSpace Photo ' + (index + 1)"
-                    />
-                    <h4 class="text-center pt-2 overflow-hidden"><b>{{ image.caption }}
-                    </b>
-                    </h4>
-                </a>
+            <section class="section mb-0 bg-white">
+            <div class="container">
+                <div class="row align-items-stretch col-mb-50 mb-0">
+                    <div class="col-lg-6 mt-5  h-col">
+                        <div class="fancy-title title-border">
+                            <h3>Our Vision is To...</h3>
+                        </div>
+                      <p class="text-muted">My Personal IT  Agency is a pioneering IT firm based in Pakistan, dedicated to delivering top-tier services in web and app development, digital marketing, and graphic design to esteemed clients across the USA and UK.</p>
+                      <p class="text-muted"><b>Why choose us </b> <br/>Quality Work: We pride ourselves on delivering excellence. Our team is committed to providing unparalleled quality within your budget and timelines.<br/> Timely Delivery: Understanding the importance of deadlines, we ensure on-time project completion without compromising on quality.<br/> Client-Centric Approach: Your success is our priority. We prioritize open communication and collaboration, ensuring your vision comes to life.</p>
+                    </div>
+
+                    <div class="col-lg-6 min-vh-50">
+                        <img width="670" height="450" src="https://img.freepik.com/free-vector/business-team-discussing-ideas-startup_74855-4380.jpg?size=626&ext=jpg&ga=GA1.1.1515880344.1699539451&semt=sph" />
+                    </div>
                 </div>
             </div>
+        </section>
         </section>
 
         <GetInTouch />
@@ -78,55 +72,11 @@
 export default {
     name: "Index",
     head: {
-        title: "noble cospace",
+        title: "Personal IT-Agency",
     },
     data() {
         return {
-            gallery: [
-            {
-                caption: "Office Room",
-                src:"demos/coworking/images/gallery/1.jpeg",
-            },
-            {
-                caption: "Working Room 2",
-                src: "demos/coworking/images/gallery/4.jpeg",
-            },
-            {
-                caption: "Work Place",
-                src:"demos/coworking/images/gallery/2.jpeg",
-            },
-            {
-                caption: "Entrance Location",
-                src:"demos/coworking/images/gallery/12.jpeg",
-            },
-            {
-                caption: "Walking Area",
-                src: "demos/coworking/images/gallery/11.jpeg",
-            },
-            {
-                caption: "HR Office / Management Room",
-                src: "demos/coworking/images/gallery/10.jpeg",
-            },
-            {
-                caption: "Working Room",
-                src: "demos/coworking/images/gallery/9.jpeg",
-            },
 
-            {
-                caption: "Upstairs Area",
-                src: "demos/coworking/images/gallery/3.jpeg",
-            },
-            {
-                caption: "Meeting Area",
-                src:"demos/coworking/images/gallery/5.jpeg",
-            },
-                // "demos/coworking/images/gallery/6.jpeg",
-                // "demos/coworking/images/gallery/8.jpeg",
-                // "demos/coworking/images/gallery/7.jpeg",
-                // "demos/coworking/images/gallery/2.jpeg",
-                // "demos/coworking/images/gallery/7.jpeg",
-                // "demos/coworking/images/gallery/1.jpeg",
-            ],
       animated: false,
         };
     },
@@ -213,7 +163,7 @@ export default {
 
 .curved {
     position: relative;
-    background: linear-gradient(#a2e5ff,#1899d1);
+    background: linear-gradient(#ffffff,#DA382F);
     opacity: 0;
     animation: fadeIn 1.5s ease forwards;
 

@@ -11,7 +11,7 @@ export default {
         base: {
             href: "/",
         },
-        title: "noble cospace",
+        title: "IT Agency",
         htmlAttrs: {
             lang: "en",
         },
@@ -27,7 +27,7 @@ export default {
             {
                 hid: "description",
                 name: "description",
-                content: "Affordable luxury coworking space.",
+                content: "Online IT Services Provider",
             },
             { name: "format-detection", content: "telephone=no" },
         ],
@@ -71,7 +71,7 @@ export default {
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {},
 
-    sitemap: {
-        hostname: "https://noblecospace.com",
-    },
+    // sitemap: {
+    //     hostname: "https://noblecospace.com",
+    // },
 };

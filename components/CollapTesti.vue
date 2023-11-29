@@ -62,30 +62,34 @@ export default {
         {
           id: 'item1',
           title: 'Our Mission',
-          content: 'Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.',
+          content: 'Our mission embodies a dedication to delivering reliable, scalable, and transformative solutions, ultimately aiming to exceed our clients expectations and build enduring relationships.',
           isCollapsed: true,
         },
         {
           id: 'item2',
           title: 'What we Do?',
-          content: 'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.',
+          content: 'Committed to excellence, we strive to deliver unparalleled web and app development, digital marketing, and graphic design services.',
           isCollapsed: false,
         },
         {
           id: 'item3',
           title: `Our Company's Values`,
-          content: 'Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur.',
+          content: 'Guided by core values, we innovate solutions, prioritize integrity in relationships, and adopt a client-centric approach. These values shape our business ethos, steer decisions, and define interactions with clients and partners.',
           isCollapsed: false,
         },
       ],
         testimonials: [
       {
-        author: "John Doe",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, testing carousel data.",
+        author: "James",
+        text: "Exceptional service! Exceeded expectations with top-notch solutions and prompt delivery.",
       },
       {
-        author: "Jane Smith",
-        text: "Pellentesque auctor justo quis ligula iaculis, id viverra augue cursus.",
+        author: "Robert",
+        text: "Outstanding work! Remarkable expertise, timely delivery, and a pleasure to collaborate with.",
+      },
+      {
+        author: "Mary",
+        text: "Outstanding work! Remarkable expertise, timely delivery, and a pleasure to collaborate with.",
       },
     ],
       animated: false,
@@ -162,7 +166,7 @@ export default {
     max-height: 100px;
 }
 .custom-underline {
-    text-decoration-color: #28ACE2;
+    text-decoration-color: #DA372F;
 }
 .carousel-indicators {
   color: transparent;
