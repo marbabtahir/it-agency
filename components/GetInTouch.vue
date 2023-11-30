@@ -11,7 +11,7 @@
 
                             <small class="text-black-50">Phone Number</small>
                             <br />
-                        <a href="tel:+923278896833">0327 8896833</a>
+                        <a href="tel:+923278896833">+92 327 8896833</a>
                         <br />
                         <small class="text-black-50">Email</small>
                         <br />

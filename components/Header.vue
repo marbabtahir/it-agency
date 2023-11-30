@@ -63,6 +63,15 @@
                             <li
                                 class="nav-item">
                                 <NuxtLink
+                                class="nav-link" to="#reference"
+                                :class="{ active: activeRoute === '#reference' }"
+                                >
+                                <div @click="closeNavbar">Reference</div>
+                                </NuxtLink>
+                            </li>
+                            <li
+                                class="nav-item">
+                                <NuxtLink
                                 class="nav-link" to="#contact"
                                 :class="{ active: activeRoute === '#contact' }"
                                 >

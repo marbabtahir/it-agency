@@ -36,7 +36,7 @@
 
         <Work class="bg-white" />
 
-        <section class="section bg-transparent" id="about" ref="animatedElement">
+        <section class="section bg-transparent mb-0" id="about" ref="animatedElement">
             <div class="container animated-content" :class="{ 'fade-in': animated }">
                 <div class="heading-block border-bottom-0 text-center">
                     <div class="before-heading">About</div>
@@ -52,7 +52,7 @@
                         <div class="fancy-title title-border">
                             <h3>Our Vision is To...</h3>
                         </div>
-                      <p class="text-muted">My Personal IT  Agency is a pioneering IT firm based in Pakistan, dedicated to delivering top-tier services in web and app development, digital marketing, and graphic design to esteemed clients across the USA and UK.</p>
+                      <p class="text-muted">My Personal IT  Agency is a pioneering IT firm based in Pakistan, dedicated to delivering top-tier services in web and app development, digital marketing, and graphic design to esteemed clients across the USA, UK, Australia and Canada.</p>
                       <p class="text-muted"><b>Why choose us </b> <br/>Quality Work: We pride ourselves on delivering excellence. Our team is committed to providing unparalleled quality within your budget and timelines.<br/> Timely Delivery: Understanding the importance of deadlines, we ensure on-time project completion without compromising on quality.<br/> Client-Centric Approach: Your success is our priority. We prioritize open communication and collaboration, ensuring your vision comes to life.<br/> Cost Benefit: Our cost to operate is lower because our environment is different, therefore, the cost/benefit ratio will be favorable for you.</p>
                     </div>
 
@@ -63,6 +63,8 @@
             </div>
         </section>
         </section>
+
+        <Sponser class="my-0 shadow border-top border-bottom border-danger"/>
 
         <GetInTouch />
     </div>
