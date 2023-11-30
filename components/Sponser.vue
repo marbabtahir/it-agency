@@ -10,7 +10,7 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6 col-md-6 mt-5 mt-md-0 p-5 address">
                     <h1>Referral From Canada.</h1>
-
+                          <p class="text-muted"><b>Patrice Sergerie, <i>Financial Advisor</i></b></p>
                             <small class="text-black-50">Phone Number</small>
                             <br />
                         <a href="tel:+1514-865-0740">+1 (514) 865-0740</a>
