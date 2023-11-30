@@ -18,6 +18,16 @@
                         <a href="mailto:hassanejaz0378@gmail.com">
                             hassanejaz0378@gmail.com
                         </a>
+                        <br/>
+                        <br/>
+                        <a aria-label="Chat on WhatsApp" href="https://wa.me/923278896833">
+                            <img width="40" height="40" src="https://img.icons8.com/fluency/96/whatsapp.png" alt="whatsapp"/>
+                            <small class="text-black-50">Click To Chat</small>
+                        </a>
+                        <a class="px-4" href="mailto:hassanejaz0378@gmail.com">
+                            <img width="40" height="40" src="https://img.icons8.com/fluency/96/mail--v1.png" alt="mail"/>
+                            <small class="text-black-50">Send Mail</small>
+                        </a>
                 </div>
 
                 <div class="col-lg-6 min-vh-50 mt-5 mt-md-0 pt-5">

@@ -53,7 +53,7 @@
                             <h3>Our Vision is To...</h3>
                         </div>
                       <p class="text-muted">My Personal IT  Agency is a pioneering IT firm based in Pakistan, dedicated to delivering top-tier services in web and app development, digital marketing, and graphic design to esteemed clients across the USA and UK.</p>
-                      <p class="text-muted"><b>Why choose us </b> <br/>Quality Work: We pride ourselves on delivering excellence. Our team is committed to providing unparalleled quality within your budget and timelines.<br/> Timely Delivery: Understanding the importance of deadlines, we ensure on-time project completion without compromising on quality.<br/> Client-Centric Approach: Your success is our priority. We prioritize open communication and collaboration, ensuring your vision comes to life.</p>
+                      <p class="text-muted"><b>Why choose us </b> <br/>Quality Work: We pride ourselves on delivering excellence. Our team is committed to providing unparalleled quality within your budget and timelines.<br/> Timely Delivery: Understanding the importance of deadlines, we ensure on-time project completion without compromising on quality.<br/> Client-Centric Approach: Your success is our priority. We prioritize open communication and collaboration, ensuring your vision comes to life.<br/> Cost Benefit: Our cost to operate is lower because our environment is different, therefore, the cost/benefit ratio will be favorable for you.</p>
                     </div>
 
                     <div class="col-lg-6 min-vh-50">

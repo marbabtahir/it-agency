@@ -17,9 +17,9 @@
             <h5 class="card-title">Socialbu</h5>
             <p class="card-text">Streamlined social media management. Schedule, analyze, and engage across platforms. Empower your brand with efficient campaigns and audience interaction.</p>
             <div class="mt-auto text-end">
-                <NuxtLink to="https://socialbu.com/">
+                <a href="https://socialbu.com/">
                 <button class="btn bg-transparent border-danger border-2 rounded-0">Visit</button>
-            </NuxtLink>
+        </a>
             </div>
           </div>
         </div>
@@ -32,9 +32,9 @@
             <h5 class="card-title">Link Mngr</h5>
             <p class="card-text">LinkMngr is a URL shortener and a great tool to easily manage short links – also short branded links – supporting the development of your brand and your business.</p>
             <div class="mt-auto text-end">
-                <NuxtLink to="https://linkmngr.com/">
+                <a href="https://linkmngr.com/">
                 <button class="btn bg-transparent border-danger border-2 rounded-0">Visit</button>
-            </NuxtLink>
+            </a>
             </div>
           </div>
         </div>
@@ -47,9 +47,9 @@
             <h5 class="card-title">Chat Fai</h5>
             <p class="card-text">Creating an AI-powered experience that allows users to chat with their favorite characters from various sources like movies, TV shows, history, and more is a fascinating and engaging idea.</p>
             <div class="mt-auto text-end">
-                <NuxtLink to="https://chatfai.com/">
+                <a href="https://chatfai.com/">
                 <button class="btn bg-transparent border-danger border-2 rounded-0">Visit</button>
-            </NuxtLink>
+            </a>
             </div>
           </div>
         </div>

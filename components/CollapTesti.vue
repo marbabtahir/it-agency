@@ -85,7 +85,7 @@ export default {
       },
       {
         author: "Robert",
-        text: "Outstanding work! Remarkable expertise, timely delivery, and a pleasure to collaborate with.",
+        text: "Exemplary work, exceeded expectations, and a pleasure to collaborate with.",
       },
       {
         author: "Mary",
